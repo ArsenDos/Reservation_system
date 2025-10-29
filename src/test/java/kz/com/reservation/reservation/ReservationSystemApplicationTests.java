@@ -1,4 +1,4 @@
-package kz.com.reservation.reservation_system;
+package kz.com.reservation.reservation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

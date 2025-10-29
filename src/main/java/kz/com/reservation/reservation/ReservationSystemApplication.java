@@ -1,4 +1,4 @@
-package kz.com.reservation.reservation_system;
+package kz.com.reservation.reservation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
