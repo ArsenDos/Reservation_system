@@ -1,6 +1,6 @@
-create SCHEMA if not exists reservation;
+create SCHEMA if not exists Task;
 
-create table if not exists reservation.task (
+create table if not exists tasks (
                                     id serial primary key,
                                     creator_id BIGINT not null,
                                     assigneed_id BIGINT,
