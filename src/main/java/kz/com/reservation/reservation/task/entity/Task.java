@@ -5,6 +5,7 @@ import kz.com.reservation.reservation.task.enums.TaskPriority;
 import kz.com.reservation.reservation.task.enums.TaskStatus;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.time.LocalDateTime;
 
@@ -12,8 +13,9 @@ import java.time.LocalDateTime;
 @Table(name="task")
 @Getter
 @Setter
+@ToString
 public class Task {
-   @Id
+    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
    @Column(name="creator_id", nullable=false)
@@ -30,5 +32,4 @@ public class Task {
     @Column(name="priority")
     @Enumerated(EnumType.STRING)
     TaskPriority priority;
-
 }
